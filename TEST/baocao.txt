@@ -1,0 +1,13 @@
+MaSV      Ho ten                   Lop       Diem    Xep loai
+------------------------------------------------------------
+SV01      Nguyen Trung Kien        CNTT1     8.50    Gioi
+SV02      Pham Ba Tuan Tu          CNTT1     7.80    Kha
+SV03      Pham Thi Thuy Quynh      CNTT1     9.20    Gioi
+SV04      Tran Ngoc Khanh          CNTT1     5.00    Trung binh
+SV06      Phuong Mai Anh           CNTT1     8.90    Gioi
+
+===== THONG KE XEP LOAI =====
+Tong SV: 5
+Gioi: 3 (60.00%)
+Kha: 1 (20.00%)
+Trung binh: 1 (20.00%)

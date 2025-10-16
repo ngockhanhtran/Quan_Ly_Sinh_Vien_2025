@@ -1,0 +1,4 @@
+SV01|Nguyen Trung Kien|CNTT1|8.5
+SV02|Pham Ba Tuan Tu|CNTT1|7.8
+SV04|Tran Ngoc Khanh|CNTT1|5
+SV06|Phuong Mai Anh|CNTT1|8.9
