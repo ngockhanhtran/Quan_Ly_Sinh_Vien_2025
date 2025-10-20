@@ -1,0 +1,6 @@
+username,password,type,linkedPersonID,phoneNumber
+admin,admin123,ADMIN,admin,0909000000
+manager,manager123,MANAGER,manager,0909555555
+sv001,12345@,STUDENT,sv001,0905123456
+sv002,12345@,STUDENT,sv002,0987654321
+sv003,12345@,STUDENT,sv003,0911222333

@@ -3,15 +3,20 @@
 using namespace std;
 
 Account :: Account(): username(""),password(""),type(AccountType::STUDENT), linkedpersonID("") {}
-Account :: Account(const string& username, const string& password, AccountType type, const string& linkedpersonID)
-        : username(username), password(password), type(type), linkedpersonID(linkedpersonID){}
+Account :: Account(const string& username, const string& password, AccountType type, const string& linkedpersonID, const string& phoneNumber)
+        : username(username), password(password), type(type), linkedpersonID(linkedpersonID), phoneNumber(phoneNumber){}
 string Account :: getUsername() const {return username;}
 string Account :: getPassword() const {return password;}
 AccountType Account :: getType() const{return type;}
 string Account :: getID() const {return linkedpersonID;}
+string Account :: getPhoneNumber() const{return phoneNumber;}
 
 void Account :: setPassword(const string& newPass){
     password = newPass;
+}
+
+void Account :: setPhoneNumber(const string& phone){
+    phoneNumber = phone;
 }
 
 bool Account :: authenticate(const string& inputUsername, const string& inputPassword){
