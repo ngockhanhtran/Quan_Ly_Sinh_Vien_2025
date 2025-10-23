@@ -91,13 +91,13 @@ void AccountManager::forgotPassword() {
     string username;
     cout << "\n===== QUEN MAT KHAU =====\n";
     cout << "Nhap username: ";
-    cin.ignore();
     getline(cin, username);
 
     for (auto& acc : accounts) {
         if (acc.getUsername() == username) {
-            cout << " Vui long lien he admin de nhan ma khoi phuc (Recovery Code).\n";
-            cout << "Nhap ma khoi phuc do admin cung cap: ";
+            cout << "Vui long lien he admin qua email: abcd@edu.vn hoac hotline: 0123456JQK de nhan ma khoi phuc....\n";
+            cout << "Hoac soan cu phap RESET PASS gui 9000 de cap lai mat khau\n";
+            cout << "Nhap ma khoi phuc: ";
             string code;
             getline(cin, code);
 
@@ -109,12 +109,12 @@ void AccountManager::forgotPassword() {
                 cout << "Dat lai mat khau thanh cong!\n";
                 saveToFile("accounts.csv");
             } else {
-                cout << " Ma khoi phuc khong dung!\n";
+                cout << "Ma khoi phuc khong dung!\n";
             }
             return;
         }
     }
-    cout << " Khong tim thay tai khoan!\n";
+    cout << "ERROR: Khong tim thay tai khoan!\n";
 }
 
 // =================== MENU CHÍNH ===================
@@ -180,7 +180,7 @@ void AccountManager::showMenu() {
 
                 saveToFile(filename);
             } else {
-                cout << " Dang nhap that bai!\n";
+                cout << "ERROR: Dang nhap that bai!\n";
             }
         }
         else if (choice == 2) {
@@ -195,7 +195,7 @@ void AccountManager::showMenu() {
                 cout << "Dang ky thanh cong! Mat khau mac dinh: 12345@\n";
                 saveToFile(filename);
             } else {
-                cout << " Ma sinh vien da ton tai!\n";
+                cout << "ERROR: Ma sinh vien da ton tai!\n";
             }
         }
         else if (choice == 3) {
@@ -206,7 +206,7 @@ void AccountManager::showMenu() {
             break;
         }
         else {
-            cout << "Lua chon khong hop le!\n";
+            cout << "ERROR: Lua chon khong hop le!\n";
         }
     }
 }

@@ -19,5 +19,7 @@ public:
     bool resetPassword(const string& studentID, const string& newPass = "12345@");
     void forgotPassword(); // xử lý quên mật khẩu (dùng mã khôi phục)
 
+    vector<Account>& getAccounts() { return accounts; }
+
     void showMenu();
 };

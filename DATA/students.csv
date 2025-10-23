@@ -1,0 +1,10 @@
+id,name,gender,birthYear,faculty,score1,score2,score3,parentName,parentPhone,email
+SV001,Nguyen Van A,Nam,2004,CNTT,8.5,7.8,9.0,Tran Thi B,0905123456,a.nguyen@stu.edu.vn
+SV002,Le Thi B,Nu,2003,English,7.2,8.0,8.3,Le Van C,0905345678,b.le@stu.edu.vn
+SV003,Pham Van C,Nam,2004,Logistics,6.5,7.1,6.8,Pham Thi D,0905987654,c.pham@stu.edu.vn
+SV004,Tran Quang D,Nam,2005,CNTT,9.1,8.9,9.3,Tran Van E,0905444333,d.tran@stu.edu.vn
+SV005,Hoang Thi E,Nu,2004,English,8.0,8.5,7.8,Hoang Van F,0905667788,e.hoang@stu.edu.vn
+SV006,Nguyen Duc F,Nam,2003,Logistics,7.5,6.9,7.2,Nguyen Thi G,0905888999,f.nguyen@stu.edu.vn
+SV007,Do Van G,Nam,2004,CNTT,6.8,7.2,7.0,Do Thi H,0905000111,g.do@stu.edu.vn
+SV008,Pham Thi H,Nu,2005,English,8.5,8.9,9.1,Pham Van I,0905777333,h.pham@stu.edu.vn
+SV009,Le Van I,Nam,2003,Logistics,7.9,7.8,8.1,Le Thi K,0905222555,i.le@stu.edu.vn

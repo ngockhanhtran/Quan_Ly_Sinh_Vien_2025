@@ -1,0 +1,4 @@
+id,name,faculty,GPA,parentName,parentPhone,email
+SV003,Pham Van C,Logistics,6.80,Pham Thi D,0905987654,c.pham@stu.edu.vn
+SV006,Nguyen Duc F,Logistics,7.20,Nguyen Thi G,0905888999,f.nguyen@stu.edu.vn
+SV009,Le Van I,Logistics,7.93,Le Thi K,0905222555,i.le@stu.edu.vn

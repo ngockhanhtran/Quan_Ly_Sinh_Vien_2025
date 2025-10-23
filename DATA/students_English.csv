@@ -1,0 +1,4 @@
+id,name,faculty,GPA,parentName,parentPhone,email
+SV002,Le Thi B,English,7.83,Le Van C,0905345678,b.le@stu.edu.vn
+SV005,Hoang Thi E,English,8.10,Hoang Van F,0905667788,e.hoang@stu.edu.vn
+SV008,Pham Thi H,English,8.83,Pham Van I,0905777333,h.pham@stu.edu.vn

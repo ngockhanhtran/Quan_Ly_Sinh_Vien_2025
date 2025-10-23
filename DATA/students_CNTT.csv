@@ -1,0 +1,4 @@
+id,name,faculty,GPA,parentName,parentPhone,email
+SV001,Nguyen Van A,CNTT,8.43,Tran Thi B,0905123456,a.nguyen@stu.edu.vn
+SV004,Tran Quang D,CNTT,9.10,Tran Van E,0905444333,d.tran@stu.edu.vn
+SV007,Do Van G,CNTT,7.00,Do Thi H,0905000111,g.do@stu.edu.vn
